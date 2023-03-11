@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <fieldset class="container">
+
+            <legend class="form-title">
+                ENTER BIODATA
+            </legend>
+
+            <label for="fullName" class="form-label">FullName</label>
+            <input type="text" class="form-input" name="fullName" id="fullName" placeholder="Enter fullname">
+
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-input" name="email" id="email" placeholder="Enter email">
+
+            <label for="phone number" class="form-label">Phone Number</label>
+            <input type="tel" class="form-input" name="phone number" id="phone number" placeholder="Enter phone number">
+
+            <select name="gender" id="gender" class="form-label">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-input" name="password" id="password" placeholder="Enter password"
+                required>
+
+            <button type="submit" class="form-label btn" id="form-submit">Submit</button>
+        </fieldset>
+    </form>
+    <script src="main.js"></script>
+</body>
+
+</html>
